@@ -1,0 +1,162 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 43vw ;
+}
+
+nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color:gray;
+    color: black;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.5);
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    
+}
+
+.Navbar ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: -3%;
+    
+}
+
+
+.Navbar ul li {
+   
+   padding: 5% 5%;
+   
+}
+
+.Navbar ul li:hover{
+    background-color: green;
+}
+
+.Navbar ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+   white-space: nowrap;
+}
+
+.Navbar ul li a:hover{
+    color: lightblue;
+   border-bottom: solid blue 2px;
+    transition:2.5s ease;
+}
+
+#logo{
+    height: 40px;
+}
+
+@media all and (max-width: 800px){
+    .Navbar{
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: overlay;
+    }
+}
+
+.bg{
+    margin: 30% 5% 0% 5%;
+    background-color:burlywood;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.r1{
+    background-color: white;
+    position: relative;
+    align-items: center;
+    margin: -7% 3% 3% 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.r2 , .r3{
+    background-color: white;
+    position: relative;
+    align-items: center;
+    margin: 5% 3% 3% 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    
+    margin-bottom: 0%;
+    margin-top: 1%;
+}
+h5{
+    margin-top: 0%;
+
+}
+
+p{
+    padding: 2% 5% 2% 5%;
+    word-wrap: break-word;
+    font-family: comic sans-serif;
+    font-size: 25px;
+    margin-bottom: 0%;
+}
+
+#pic1 , #pic2 , #pic3{
+    width: 10%;    
+    margin-top: -5%;
+    border-radius: 50%;
+}
+
+#like , #dislike{
+    height: 30px;
+    width: 30px;
+    margin-bottom: -8px;
+
+}
+
+.icons{
+    border: solid black 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    align-items: center;
+   
+}
+
+
+.icons ul li{
+    text-decoration: none;
+    display: inline-block;
+    
+
+}
+.icons a{
+  text-decoration: none;
+}
+
+.icons i{
+    
+    border-width: 1px;
+    
+}
+
+#cmt1 , #cmt ,#cmt2{
+    
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
