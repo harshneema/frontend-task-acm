@@ -30,6 +30,8 @@ document.getElementById("commentinput").style.display = "none";
 function discmt() {
     var x = document.getElementById("commentinput").value ;
     document.getElementById("reply").style.display = "flex";
+    document.getElementById("submit").style.display = "none";
+    document.getElementById("commentinput").style.display = "none";
     document.getElementById("com").innerHTML = x ;
     console.log(x); 
 }
@@ -55,6 +57,8 @@ document.getElementById("commentinput1").style.display = "none";
 function discmt1() {
     var x = document.getElementById("commentinput1").value ;
     document.getElementById("reply1").style.display = "flex";
+    document.getElementById("submit1").style.display = "none";
+    document.getElementById("commentinput1").style.display = "none";
     document.getElementById("com1").innerHTML = x ;
     console.log(x);   
 }
@@ -79,6 +83,8 @@ document.getElementById("commentinput2").style.display = "none";
 function discmt2() {
     var x = document.getElementById("commentinput2").value ;
     document.getElementById("reply2").style.display = "flex";
+    document.getElementById("submit2").style.display = "none";
+    document.getElementById("commentinput2").style.display = "none";
     document.getElementById("com2").innerHTML = x ;
     console.log(x);
     var y = document.getElementById("c")  
